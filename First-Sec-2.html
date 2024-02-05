@@ -28,10 +28,10 @@
             </label>
             <ul>
                 <li><a href="#aboutMeId" class="active" style="--navAni:1">About Me</a></li>
-                <li><a href="#myWorkId" style="--navAni:2">My work</a></li>
-                <li><a href="#idClass" style="--navAni:2">Skills</a></li>
-                <li><a href="#contactMeId" style="--navAni:3">Contact</a></li>
-                <li><a href="#" style="--navAni:4">Linkedin</a></li>
+                <li><a href="#myWorkId" style="--navAni:2">My Work</a></li>
+                <li><a href="#idClass" style="--navAni:2">My Skills</a></li>
+                <li><a href="#contactMeId" style="--navAni:3">Contact Me</a></li>
+                <li><a href="https://www.linkedin.com/in/teannieb/" style="--navAni:4">Linkedin</a></li>
             </ul>
         </div>
     </header>
@@ -75,9 +75,9 @@
         </div>
     </section>
 
-    <section>
+    <section class="backing">
       <div class="about" id="aboutMeId">
-      <h4><span style="color:#f9532d;">About</span> me</h4>
+      <h4><span style="color:#f9532d;">About</span> Me</h4>
       </div>
 
             <div class="card mb-3">
@@ -94,11 +94,110 @@
 <!-- add margin at top -->
 <section>
 <div class="aboutmetitle" id="myWorkId">
-<h4><span style="color:#f9532d;">My</span> work</h4>
+<h4><span style="color:#f9532d;">My</span> Work</h4>
 </div>
 </section>
 
-<div class="row row-cols-1 row-cols-md-2 g-4 mywork">
+
+<section class="myWorkCurrent">
+  <div class="card-deck row row-cols-1 row-cols-md-4 mywork">
+
+    <div class="card">
+      <img src="./assets/weathertempss.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Weather Dashboard</h5>
+        <p class="card-text">An app that allows users to see the weather forecast for cities of their choosing</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Feb 2024</small>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="./assets/finalSS.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">API Code Quiz</h5>
+        <p class="card-text">A timed, multiple-choice coding quiz.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Jan 2024</small>
+      </div>
+    </div>
+
+
+  <div class="card">
+    <img src="./assets/pwordss.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Password Generator</h5>
+      <p class="card-text">An application where users can generate a random password based on criteria they’ve selected.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Dec 2023</small>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="./assets/daily planner.png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Daily Planner</h5>
+      <p class="card-text">A calendar application that allows users to save events for each hour of the day.</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">Dec 2023</small>
+    </div>
+  </div>
+
+</div>
+</section>
+
+<section class="futureWork">
+  <div class="card-deck row row-cols-1 row-cols-md-4 mywork">
+    <div class="card">
+      <img src="./assets/project coming soon .png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project</h5>
+        <p class="card-text">Coming soon</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">2024</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./assets/project coming soon .png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project</h5>
+        <p class="card-text">Coming soon</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">2024</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./assets/project coming soon .png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Project</h5>
+        <p class="card-text">Coming soon</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">2024</small>
+      </div>
+    </div>
+  <div class="card">
+    <img src="./assets/project coming soon .png" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Project</h5>
+      <p class="card-text">Coming soon</p>
+    </div>
+    <div class="card-footer">
+      <small class="text-muted">2024</small>
+    </div>
+  </div>
+</div>
+
+</section>
+
+<!-- 
+<div class="row row-cols-1 row-cols-md-4 g-4 mywork">
     <div class="col">
       <div class="card">
         <img src="./assets/pwordss.png" class="card-img-top" alt="...">
@@ -135,12 +234,12 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
   <section>
     <div class="skillstitle" id="idClass">
-    <h4><span style="color:#f9532d;">Sk</span> ills</h4>
+    <h4><span style="color:#f9532d;">Sk</span>ills</h4>
     </div>
     </section>
 
@@ -210,14 +309,14 @@
 
 
 <section>
-  <h4><span style="color:#f9532d;">Contact</span> me</h4>
+  <h4><span style="color:#f9532d;">Contact</span> Me</h4>
 
             <div class="contact" id="contactMeId">
               <input type="checkbox" id="click">
               <br>
               <ul>
                   <li>Email: Teannietech@outlook.com</li>
-                  <li>Tel: 07956235805</li>
+                  <!-- <li>Tel: 00000000000</li> -->
                   <!-- <li><a href="#" style="--navAni:3">My Work</a></li> -->
               </ul>
               <br>
@@ -226,4 +325,8 @@
 
     </section>
 </body>
+<footer>
+2024
+
+</footer>
 </html>
