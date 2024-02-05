@@ -390,15 +390,15 @@ li a:hover {
 
 .futureWork {
 margin-top: 30px;
-margin-right: 50px;
+/* margin-right: 50px; */
 margin-left: 50px;
 }
 
-/* .myWorkCurrent {
-    margin-right: 50px;
+.myWorkCurrent {
+    /* margin-right: 50px; */
     margin-left: 50px;
-    padding-left: 150px;
-} */
+
+}
 
 .titles{
     margin-left: 50px;   
@@ -410,16 +410,35 @@ margin-left: 50px;
     margin-left: 40px;   
 }
 
-
 .futureWork .card {
     border: 5px solid #1F252E;
     border-radius: 10px; 
     /* margin: 10px; */
 }
 
-
 .myWorkCurrent .card {
     border: 5px solid #1F252E;
     border-radius: 10px; 
     /* margin: 10px; */
 }
+
+
+#skillCircles .big-circle {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%;
+  }
+  
+  #skillCircles .big-circle img {
+    max-width: 50px; 
+    height: auto; 
+  }
+  
+  #skillCircles .icon-block {
+    width: 10px; 
+    height: 10px;
+  }
+
+  #skillCircles .rounding-sec {
+    height: 150px;
+  } 
