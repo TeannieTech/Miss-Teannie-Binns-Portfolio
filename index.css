@@ -442,3 +442,17 @@ margin-left: 50px;
   #skillCircles .rounding-sec {
     height: 150px;
   } 
+
+.card-footer {
+ text-align: right;
+}
+
+#myWorkId h4,#myWorkId p {
+  display: inline-block;
+  margin: 0;
+}
+
+/* #idClass h4, #idClass p {
+    display: inline-block;
+    margin: 0;
+  } */
