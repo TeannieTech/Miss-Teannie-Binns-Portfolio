@@ -456,3 +456,15 @@ margin-left: 50px;
     display: inline-block;
     margin: 0;
   } */
+
+a {
+ text-decoration: none;
+}
+
+.card a:visited {
+    color: black;
+}
+
+.card a:link {
+  color: black;
+}
