@@ -32,11 +32,12 @@ body {
 /* Nav */
 header {
     background: var(--primary-dark);
-    position: relative;
+    /* position: relative; */
     box-shadow: 0 4px 17px rgb(255 255 255 / 10%);
     /* position: sticky; */
     top: 0;
     z-index: 1;
+    padding: 20px;
 }
 
 .page-header {
@@ -413,13 +414,13 @@ margin-left: 50px;
 .futureWork .card {
     border: 5px solid #1F252E;
     border-radius: 10px; 
-    /* margin: 10px; */
+
 }
 
 .myWorkCurrent .card {
     border: 5px solid #1F252E;
     border-radius: 10px; 
-    /* margin: 10px; */
+
 }
 
 
@@ -450,12 +451,12 @@ margin-left: 50px;
 #myWorkId h4,#myWorkId p {
   display: inline-block;
   margin: 0;
-}
+} */
 
 /* #idClass h4, #idClass p {
     display: inline-block;
     margin: 0;
-  } */
+  }
 
 a {
  text-decoration: none;
@@ -468,3 +469,6 @@ a {
 .card a:link {
   color: black;
 }
+
+
+/* check containers. add flex wrap.  */
